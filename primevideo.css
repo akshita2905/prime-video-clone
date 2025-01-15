@@ -1,0 +1,125 @@
+/* navbar styings */
+
+.nav-color {
+    background-color: #0f171e !important; 
+    color: #fff !important;
+    font-size: 11px;
+    font-weight: 500;
+}
+.hover-nav:hover  {
+    background-color: #fff !important;
+    color: #00050d !important;
+    border-radius: 10px !important;
+}
+.nav-logo {
+    font-size: 1rem !important;
+    margin-left: 20px;
+}
+.fontsize {
+    margin-left: 13px;
+}
+.search-icon {
+    font-size: 15px;
+}
+.menu-icon {
+    font-size: 20px;
+}
+.user-icon {
+    font-size: 20px;
+}
+.join-button {
+    background-color: #1a98ffcc;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 9px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.section{
+    background-color: black;
+    color: #fff;
+    min-height: 475px;
+}
+.section-2-img {
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg');
+    background-size: cover;
+    height: 480px;
+    width: 100%;
+}
+
+.section-1-img {
+    background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg');
+    background-size: cover;
+    height: 480px;
+    width: 100%;
+}
+.button {
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 10px;
+    width: max-content;
+    height: 50px;
+}
+.button:hover {
+    color: #5c5c5c;
+    opacity: 1px;
+    transform: scale(1.1);
+    transition: 0.3s transform;
+}
+.image {
+    width: 150px;
+    height: 100px;
+    border-radius: 12px;
+    margin: 3px;
+}
+.image:hover {
+    box-shadow: 0px 0px 4px 1.5px #949292; /
+}
+
+/* footer stylings */
+
+footer {
+    background-color: #222222;
+    font-size: 0.8rem;
+}
+.Footer_logo {
+    margin-top: 10px;
+    height: 25px;
+}
+.footer-links {
+    color: #79b8f3;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+.footer-links:hover {
+    color: #90dffe;
+}
+.copyright {
+    color: #8197a4;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    * {
+        font-size: 12px;
+    }
+    .image {
+        width: 60px;
+        height: 50px;
+    }
+    .section-2-img, .section-1-img {
+        height: 180px;
+    }
+    .media {
+        text-align: max-content;
+    }
+    .search-icon, .user-icon,.menu-icon  {
+        font-size: 10px;
+    }
+    .join-button {
+       display: none;
+    }
+}
